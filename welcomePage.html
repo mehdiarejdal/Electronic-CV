@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets\images\favicon.ico" />
+    <link rel="stylesheet" href="stylebar.css" />
+    
+
+    <title> Welcome Page</title>
+  </head>
+  <body >
+    
+  </body>
+  
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    window.addEventListener("click", function (e) {
+      if (
+        !document.getElementById("mySidenav").contains(e.target) &&
+        !document.getElementById("myMenu").contains(e.target)
+      ) {
+        // Clicked in box
+        document.getElementById("mySidenav").style.width = "0px";
+      } else {
+        // document.getElementById("mySidenav").style.width = "0px";
+      }
+    });
+  </script>
+  
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="appopen.js"></script>
+  <script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+
+  <div id="mySidenav" class="navigation">
+    <ul>
+      <li>
+        <a href="formations.html">
+          <span class="icon"
+            ><ion-icon name="code-slash-outline"></ion-icon>
+          </span>
+          <span class="title">My CV </span>
+        </a>
+      </li>
+      <li>
+        <a href="formations.html">
+          <span class="icon"
+            ><ion-icon name="library-outline"></ion-icon>
+          </span>
+          <span class="title">Formations</span>
+        </a>
+      </li>
+      <li>
+        <a href="formations.html">
+          <span class="icon"
+            ><ion-icon name="language-outline"></ion-icon
+          ></span>
+          <span class="title">Languagues</span>
+        </a>
+      </li>
+      <li>
+        <a href="hobbies.html">
+          <span class="icon"><ion-icon name="desktop-outline"></ion-icon></span>
+          <span class="title">Programming </span>
+        </a>
+      </li>
+      <li>
+        <a href="hobbies.html">
+          <span class="icon"><ion-icon name="flash-outline"></ion-icon></span>
+          <span class="title">Soft SKILLS </span>
+        </a>
+      </li>
+      <li>
+        <a href="hobbies.html">
+          <span class="icon"
+            ><ion-icon name="briefcase-outline"></ion-icon
+          ></span>
+          <span class="title">Professional </span>
+        </a>
+      </li>
+      <li>
+        <a href="hobbies.html">
+          <span class="icon"
+            ><ion-icon name="heart-half-outline"></ion-icon
+          ></span>
+          <span class="title">Hobbies</span>
+        </a>
+      </li>
+      <li>
+        <a href="hobbies.html">
+          <span class="icon"
+            ><ion-icon name="extension-puzzle-outline"></ion-icon
+          ></span>
+          <span class="title">Extracurricular activities</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <span style="font-size: 30px; cursor: pointer" id="myMenu" onclick="openNav()"
+    >&#9776; About Me</span
+  >
+  <main>
+    
+    <div style="display: flex; flex-direction: column; align-items: center">
+      <img
+      src="assets\images\PDP linkedin.png"
+      width="300"
+      height="300"
+      style="border-radius: 50%"
+      />
+    </div>
+    <h4 style="text-decoration: underline;text-align:center; font-size:4.5vw;">Computer Sciences <br>Engenniring Student </h4>
+     
+     <!-- social media list -->
+     <div style="margin-left: 24px; display: flex; flex-direction: column">
+       <!-- linkedin -->
+       <p style="font-weight: bold;">Contact:</p> 
+       <h 
+       <h2  style="font-weight: bold; text-decoration: underline">  
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 6px;
+        "
+      >
+        <img
+          style="margin-right: 12px"
+          src="assets\images\linkedin.svg.png"
+          width="30"
+          height="30"
+        />
+        <a
+          href="https://ma.linkedin.com/in/el-mehdi-arejdal-877792201"
+          style="color: rgb(0, 0, 0)"
+        >
+          El Mehdi Arejdal
+        </a>
+      </div>
+      <!-- facebook -->
+      <div style="display: flex; flex-direction: row; align-items: center">
+        <img
+          style="margin-right: 12px"
+          src="assets\images\Facebook_icon.svg.png"
+          width="30"
+          height="30"
+        />
+        <a
+          href="https://web.facebook.com/Mehdi.arejdal17"
+          style="color: rgb(0, 0, 0)"
+        >
+          El Mehdi Arejdal</a
+        >
+      </div>
+      <!-- Github -->
+      <div style="display: flex; flex-direction: row; align-items: center">
+        <img
+          style="margin-right: 12px"
+          src="assets\images\github.svg.png"
+          width="30"
+          height="30"
+        />
+        <a
+          href="https://github.com/mehdiarejdal"
+          style="color: rgb(0, 0, 0)"
+        >
+          El Mehdi Arejdal</a
+        >
+      </div>
+      <!-- Telephone -->
+      <div style="display: flex; flex-direction: row; align-items: center">
+        <img
+          style="margin-right: 12px"
+          src="assets\images\telephone_logo.jpg"
+          width="30"
+          height="30"
+        />
+        <a
+          href="mailto:0708278745"
+          style="color: rgb(0, 0, 0)"
+        >
+          0708278745</a
+        >
+      </div>
+      
+      <!-- Email -->
+      <div style="display: flex; flex-direction: row; align-items: center">
+        <img
+          style="margin-right: 12px"
+          src="assets\images\mail-logo.png"
+          width="30"
+          height="30"
+        />
+        <a
+          href="mailto:mehdi.arejdal@gmail.com"
+          style="color: rgb(0, 0, 0)"
+        >
+          mehdi.arejdal@gmail.com</a
+          >
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+</main>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="app.js"></script>
+
+<footer>
+<div class="details" >
+  <div class="recentOrders">
+    <div class="cardHeader">
+      <h2>This is My electronic CV</h2>
+      <!-- CHECK PORTFOLIO -->
+      <a href="https://elmehdiarejdal.web.app/" class="btn"> CHECK Out My PORTFOLIO</a>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <td>For More Informations:</td>
+          <td><ion-icon name="location-outline"></ion-icon></td>
+          <td><ion-icon name="call-outline"></ion-icon></td>
+          <td>© CopyRight</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td>Lot Ryiad Agdal n°=33 <br> Syba Marrakech </td>
+          <td>+2120708278745</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+ 
+    <div class="ascii-art">
+      #######           #     #                              #                                              
+      #       #         ##   ## ###### #    # #####  #      # #   #####  ######      # #####    ##   #      
+      #       #         # # # # #      #    # #    # #     #   #  #    # #           # #    #  #  #  #      
+      #####   #         #  #  # #####  ###### #    # #    #     # #    # #####       # #    # #    # #      
+      #       #         #     # #      #    # #    # #    ####### #####  #           # #    # ###### #      
+      #       #         #     # #      #    # #    # #    #     # #   #  #      #    # #    # #    # #      
+      ####### ######    #     # ###### #    # #####  #    #     # #    # ######  ####  #####  #    # ###### 
+                                                                                                            
+      </div>
+   
+  </div>
+
+
+</div>
+</div>
+</div>
+
+</footer>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAua4VaJgPLcJI42ZSqzkN4RDqllhgNYc8",
+    authDomain: "el-mehdi-arejdal-electronic-cv.firebaseapp.com",
+    projectId: "el-mehdi-arejdal-electronic-cv",
+    storageBucket: "el-mehdi-arejdal-electronic-cv.appspot.com",
+    messagingSenderId: "534802992290",
+    appId: "1:534802992290:web:4da0c95c39c28257a45bfb",
+    measurementId: "G-7NP5W79S9N"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+
+
+</html>
